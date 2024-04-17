@@ -1,0 +1,146 @@
+@charset "UTF-8";
+
+* {
+    min-width: auto;
+    max-width: auto;
+} 
+
+body{
+    background-color: rgb(32, 32, 32);
+   
+}
+
+nav {
+    
+    padding: 3px;
+    text-align: right;
+    margin-top: 0px;
+    height: 20px;
+    box-shadow: 1px 1px 1px rgba(107, 107, 107, 0.718);
+}
+
+nav > a {
+    color:rgb(144, 229, 75);
+    padding: 2px;
+    border-radius: 4px;
+    text-decoration: none; 
+    font-weight: bold;
+    transition-duration: .3s;
+    
+}
+
+nav > a:hover {
+    background-color: rgb(144, 229, 75);
+    color:black;
+}
+
+h1{
+    color: rgb(255, 255, 255);
+    font-size: 60px;
+    position: absolute;
+    top: 25%;
+    padding-left: 5%;
+  
+}
+
+p{
+    color: rgb(144, 229, 75);
+    font-size: 20px;
+    position: absolute;
+    top: 38%;
+    padding-left: 6%;
+}
+
+
+.container1g{
+    
+    text-align: center;
+    margin-top: 10px;
+    display: block;
+    top: 85%;
+    left: 50%;
+    position: fixed;
+    margin: auto;
+}
+
+#imggithub{
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    height:50px;
+}
+
+.container2l{
+    text-align: center;
+    margin-top: 10px;
+    display: block;
+    top: 85%;
+    left: 37%;
+    position: fixed;
+    margin: auto;
+}
+
+#imglink{
+    background-color: white;
+    border-radius: 10px;
+    height:50px;
+}
+
+.container3i{
+    text-align: center;
+    margin-top: 10px;
+    display: block;
+    top: 85%;
+    left: 63%;
+    position: fixed;
+    margin: auto;
+}
+
+#imginstagram{
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    height:50px;
+}
+
+.containereu{
+    text-align: center;
+    margin-top: 8%;
+    display: block;
+}
+
+.botaovoltar {
+    
+    position: absolute;
+    left: 90%;
+    top: 90%;
+  }
+
+  #voltar{
+    background-color: white;
+    border-radius: 30px;
+    height: 50px;
+  }
+
+
+
+
+footer {
+    background-color: rgba(255, 255, 255, 0.442);
+    color:rgb(0, 0, 0);
+    font-size: 0.8em;
+    padding: 5px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+
+footer a {
+    color: black;
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+    color:red;
+}
